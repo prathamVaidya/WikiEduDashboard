@@ -114,6 +114,8 @@ const Form = (props) => {
           <label>
             Email <span className="form-required-indicator">*</span>
           </label>sdsd
+
+          sds
           <input
             required
             className="form-control"
