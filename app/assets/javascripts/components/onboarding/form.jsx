@@ -107,6 +107,8 @@ const Form = (props) => {
           <p className="form-help-text">
             Your real name is not public. It is only seen by you, your
             instructor, and Wiki Education admins.
+
+
           </p>
         </div>
         <div className="form-group">
