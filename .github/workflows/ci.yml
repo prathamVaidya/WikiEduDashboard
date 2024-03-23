@@ -16,6 +16,7 @@ jobs:
       - uses: dorny/paths-filter@v3
         id: filter
         with:
+          base: workflow-test
           filters: |
               backend:
                   - '!(app/assets)/**'
