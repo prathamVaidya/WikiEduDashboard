@@ -113,7 +113,7 @@ const Form = (props) => {
         <div className="form-group">
           <label>
             Email <span className="form-required-indicator">*</span>
-          </label>sdsdssds
+          </label>22
 
           sds
           <input
