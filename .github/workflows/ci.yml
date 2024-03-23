@@ -19,7 +19,7 @@ jobs:
           base: workflow-test
           filters: |
               backend:
-                  - '!(app/assets)/**'
+                  - '!app/assets/**'
 
       - name: Test Optimization
         if: ${{ steps.filter.outputs.backend == 'true' }}
